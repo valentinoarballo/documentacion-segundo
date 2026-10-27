@@ -182,3 +182,11 @@ html {
   scrollbar-width: thin;
   scrollbar-color: var(--md-primary-fg-color--light) transparent;
 }
+
+  [data-md-color-primary="custom"] {
+    --md-primary-fg-color: #0a7;
+    --md-primary-bg-color: #fff;
+  }
+  [data-md-color-accent="custom"] {
+    --md-accent-fg-color: #f60;
+  }
