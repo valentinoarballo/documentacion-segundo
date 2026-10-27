@@ -1,4 +1,5 @@
 site_name: Desarrollo Frontend
+site_url: https://TU-USUARIO.github.io/TU-REPO/
 
 theme:
   name: material
@@ -17,7 +18,6 @@ theme:
       toggle:
         icon: material/brightness-7
         name: Cambiar a modo oscuro
-
     # Modo oscuro
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
@@ -43,21 +43,23 @@ extra_css:
   - stylesheets/custom.css
 
 nav:
-  - Tema 1. Introducción a la materia: index.md
-  - Tema 2. Fundamentos de JavaScript, variables y scope: tema2.md
-  - Tema 3. Operadores y bucles: tema3.md
-  - Tema 4. Condicionales y funciones: tema4.md
-  - Tema 5. Introducción y manipulación del DOM: tema5.md
-  - Tema 6. Manejo de eventos: tema6.md
-  - Tema 7. LocalStorage y SessionStorage: tema7.md
-  - Tema 8. Consumo de APIs con Fetch: tema8.md
-  - Tema 9. Introducción a React y componentes: tema9.md
-  - Tema 10. Estado, efectos y axios: tema10.md
-  - Tema 11. Enrutamiento con React Router DOM: tema11.md
-  - Tema 12. Estado global con useContext: tema12.md
-  - Tema 13. Validación y control de formularios: tema13.md
-  - Tema 14. Gitflow y Kanban: tema14.md
-  - Tema 15. Deploy y conexión con API hosteada: tema15.md
+  - Inicio: index.md
+  - Tema 1. Introducción a JavaScript: tema1.md
+  - Tema 2. Variables, bloques y scope: tema2.md
+  - Tema 3. Bucles: tema3.md
+  - Tema 4. Funciones: tema4.md
+  - Tema 5. DOM y eventos: tema5.md
+  - Tema 6. Fetch y LocalStorage: tema6.md
+  - Tema 7. Configuración de React: tema7.md
+  - Tema 8. Componentes de React: tema8.md
+  - Tema 9. useState y useEffect: tema9.md
+  - Tema 10. Rutas base con React Router DOM: tema10.md
+  - Tema 11. Rutas dinámicas y anidadas: tema11.md
+  - Tema 12. useContext: tema12.md
+  - Tema 13. Formularios controlados: tema13.md
+  - Tema 14. Gitflow y tableros Kanban: tema14.md
+  - Tema 15. Formulario de carga y despliegue en Vercel: tema15.md
+  - Tema 16. Configuración de conexión en aplicaciones desplegadas: tema16.md
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -69,3 +71,5 @@ markdown_extensions:
   - pymdownx.superfences
   - admonition
   - pymdownx.details
+  
+site_url: https://valentinoarballo.github.io/documentacion-segundo/
