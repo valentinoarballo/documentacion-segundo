@@ -1,0 +1,71 @@
+site_name: Desarrollo Frontend
+
+theme:
+  name: material
+  language: es
+  logo: assets/logo.png
+  favicon: assets/favicon.jpeg
+  font:
+    text: Inter
+    code: JetBrains Mono
+  palette:
+    # Modo claro
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-7
+        name: Cambiar a modo oscuro
+
+    # Modo oscuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-4
+        name: Cambiar a modo claro
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+
+extra_css:
+  - stylesheets/custom.css
+
+nav:
+  - Tema 1. Introducción a la materia: index.md
+  - Tema 2. Fundamentos de JavaScript, variables y scope: tema2.md
+  - Tema 3. Operadores y bucles: tema3.md
+  - Tema 4. Condicionales y funciones: tema4.md
+  - Tema 5. Introducción y manipulación del DOM: tema5.md
+  - Tema 6. Manejo de eventos: tema6.md
+  - Tema 7. LocalStorage y SessionStorage: tema7.md
+  - Tema 8. Consumo de APIs con Fetch: tema8.md
+  - Tema 9. Introducción a React y componentes: tema9.md
+  - Tema 10. Estado, efectos y axios: tema10.md
+  - Tema 11. Enrutamiento con React Router DOM: tema11.md
+  - Tema 12. Estado global con useContext: tema12.md
+  - Tema 13. Validación y control de formularios: tema13.md
+  - Tema 14. Gitflow y Kanban: tema14.md
+  - Tema 15. Deploy y conexión con API hosteada: tema15.md
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
