@@ -1,5 +1,5 @@
 site_name: Desarrollo Frontend
-site_url: https://TU-USUARIO.github.io/TU-REPO/
+site_url: https://valentinoarballo.github.io/documentacion-segundo/
 
 theme:
   name: material
@@ -72,4 +72,3 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   
-site_url: https://valentinoarballo.github.io/documentacion-segundo/
